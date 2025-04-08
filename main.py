@@ -8,7 +8,7 @@ dias_da_semana = (
     "Sabado"
 )
 
-print(dias_da_semana)
+print(dias_da_semana[3])
 
 
-# Exemplo de Tupla, semelhante as listas mas criada com parenteses ao inves de colchetes, e não podem ser modificadas.
+# As tuplas tambem podem ter suas posições especificadas como no exemplo da linha 11
