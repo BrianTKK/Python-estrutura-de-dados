@@ -1,11 +1,14 @@
-numeros = [1, 7, 12, 18, 4, 52, 11, 37]
+dias_da_semana = (
+    "Domingo",
+    "Segunda-feira",
+    "Terça-feira",
+    "Quarta-feira",
+    "Quinta-feira",
+    "Sexta-feira",
+    "Sabado"
+)
 
-numeros_double= [
-    numero * 2
-    for numero 
-    in numeros 
-]
+print(dias_da_semana)
 
-print(numeros_double)
 
-# Duplica o valor dos itens da lista numeros e armazena em uma nova lista numeros_double.
+# Exemplo de Tupla, semelhante as listas mas criada com parenteses ao inves de colchetes, e não podem ser modificadas.
