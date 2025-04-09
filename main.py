@@ -4,6 +4,6 @@ pessoa = {
 
 pessoa["animais"] = ["cachorro", "gato"]
 
-print(pessoa)
+print(pessoa["nome"])
 
-# Adiciona um novo valor 'animais' ao dicionario da pessoa, com dois elementos, "cachorro" e "gato"
+# Imprime apenas a chave "nome"
