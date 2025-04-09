@@ -2,6 +2,8 @@ pessoa = {
     "nome": "Joao"
 }
 
+pessoa["animais"] = ["cachorro", "gato"]
+
 print(pessoa)
 
-# Estrutura dicionario ou map é uma coleção de pares chave-valor.
+# Adiciona um novo valor 'animais' ao dicionario da pessoa, com dois elementos, "cachorro" e "gato"
