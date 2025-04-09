@@ -1,14 +1,9 @@
-dias_da_semana = (
-    "Domingo",
-    "Segunda-feira",
-    "Terça-feira",
-    "Quarta-feira",
-    "Quinta-feira",
-    "Sexta-feira",
-    "Sabado"
-)
+numeros = set()
 
-print(dias_da_semana[3])
+numeros.add(1)
+numeros.add(2)
+numeros.add(3)
 
+print(numeros)
 
-# As tuplas tambem podem ter suas posições especificadas como no exemplo da linha 11
+# Set também é um tipo de lista mas não é ordenada(não pode ser acessada por indice) e não aceita valores duplicados.
