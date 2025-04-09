@@ -4,6 +4,6 @@ pessoa = {
 
 pessoa["animais"] = ["cachorro", "gato"]
 
-print(pessoa["nome"])
+del(pessoa["animais"])
 
-# Imprime apenas a chave "nome"
+# Deleta a chave "animais" do dicionário pessoa
